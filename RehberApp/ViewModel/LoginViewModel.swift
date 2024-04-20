@@ -27,4 +27,12 @@ class LoginViewModel{
             }
         }
     }
+    
+    func getIntrestedList() -> [String] {
+        return loginDetails?.intrestedTopics ?? []
+    }
+    
+    func getPreviouslySelectedList() -> [String] {
+        return loginDetails?.previouslySelectedTopics ?? []
+    }
 }

@@ -35,6 +35,10 @@ struct LoginView: View {
                 }
                 .frame(width:120, height: 40)
                 .border(.gray, width: 0.5)
+                .fullScreenCover(isPresented: $isCourseListPresented, content: {
+                    createCourseListView(intrestedTopics: viewModel.getIntrestedList(),
+                                         previouslySelectedTopics: viewModel.getPreviouslySelectedList())
+                })
                 
             }
             Spacer(minLength: 30)
@@ -55,6 +59,13 @@ struct LoginView: View {
                 self.networkError = error
             }
         })
+    }
+    
+    func createCourseListView(intrestedTopics:[String],
+                          previouslySelectedTopics:[String]) -> CourseListView{
+        let courseListService = DefaultCourseListService(userFavCategories: intrestedTopics,
+                                                         alreadySelectedCategories: previouslySelectedTopics)
+        return CourseListView(service: courseListService)
     }
 }
 
