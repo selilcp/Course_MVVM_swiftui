@@ -39,9 +39,13 @@ struct CourseDetailView: View {
                 }
                 .frame(width:100, height: 40)
                 .border(.gray, width: 0.5)
-                .alert("Success", isPresented: $showAlert) {
+                .alert("Congrats!" , isPresented: $showAlert) {
                     
+                } message: {
+                    Text("Your successfully enrolled to this course")
                 }
+
+                
             }
         }
     }
