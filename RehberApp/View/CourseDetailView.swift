@@ -32,19 +32,24 @@ struct CourseDetailView: View {
                     }
                 }
             }
-            VStack{
+            VStack(){
                 Spacer()
                 Button("Enrol") {
                     showAlert = true
                 }
-                .frame(width:100, height: 40)
-                .border(.gray, width: 0.5)
+                .foregroundColor(Color.black)
+                .frame(width:120, height: 40)
+                .background(
+                    RoundedRectangle(cornerRadius: 5)
+                        .strokeBorder(Color.gray, lineWidth: 1)
+                        .background(RoundedRectangle(cornerRadius: 5).fill(Color.green.opacity(0.7))
+                    )
+                )
                 .alert("Congrats!" , isPresented: $showAlert) {
                     
                 } message: {
                     Text("Your successfully enrolled to this course")
                 }
-
                 
             }
         }
