@@ -11,6 +11,7 @@ struct LoginView: View {
     
     @State private var userInput = ""
     @State private var isCourseListPresented = false
+    @State private var networkError:NetworkError? = nil
     
     let viewModel: LoginViewModel
     
@@ -30,7 +31,7 @@ struct LoginView: View {
                                     trailing: 20) )
                 .border(.gray, width: 0.5)
                 Button("Submit") {
-                    
+                    fetchDetails()
                 }
                 .frame(width:120, height: 40)
                 .border(.gray, width: 0.5)
@@ -38,6 +39,22 @@ struct LoginView: View {
             }
             Spacer(minLength: 30)
         }
+        .alert(item: $networkError) { error in
+            Alert(title: Text("Error"),
+                  message: Text(error.message),
+                  dismissButton: .default(Text("Ok") ))
+        }
+    }
+    
+    func fetchDetails(){
+        viewModel.fetchDetails(userName: userInput,
+                               response: { error in
+            if error == nil{
+                isCourseListPresented = true
+            }else{
+                self.networkError = error
+            }
+        })
     }
 }
 
