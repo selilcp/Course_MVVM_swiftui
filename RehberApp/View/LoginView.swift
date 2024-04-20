@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct LoginView: View {
+    
+    @State private var userInput = ""
+    @State private var isCourseListPresented = false
+    
     var body: some View {
-        VStack {
-            Text("test")
+        HStack{
+            Spacer(minLength: 30)
+            VStack(alignment:.center ){
+                TextField( "User Name",
+                           text: $userInput)
+                .padding(EdgeInsets(top: 15,
+                                    leading: 20,
+                                    bottom: 15,
+                                    trailing: 20) )
+                .border(.gray, width: 0.5)
+                Button("Submit") {
+                    
+                }
+                .frame(width:120, height: 40)
+                .border(.gray, width: 0.5)
+                
+            }
+            Spacer(minLength: 30)
         }
-        .padding()
     }
 }
 
