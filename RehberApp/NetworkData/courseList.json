@@ -7,7 +7,15 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":7,
-        "videoLinks":[""]
+        "videoLinks":[{"id": 1 ,
+            "link":"https://www.youtube.com/watch?v=xSbMX0MFJCY"
+            "title": "How Do Vaccines Work?: Viruses & Vaccines: Crash Course Biology"},
+            {"id": 2 ,
+            "link":"https://www.youtube.com/watch?v=tZE_fQFK8EY"
+            "title": "Introduction to Biology: Crash Course Biology"},
+            {"id": 3 ,
+            "link":"https://www.youtube.com/watch?v=8mAITcNt710"
+            "title": "Harvard CS50 – Full Computer Science University Course"}]
     },
     {
         "id":2,
@@ -177,7 +185,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":18,
-        "videoLinks":["https://www.youtube.com/watch?v=xSbMX0MFJCY,https://www.youtube.com/watch?v=tZE_fQFK8EY,https://www.youtube.com/watch?v=8mAITcNt710"]
+        "videoLinks":[""]
     },
     {
         "id":19,

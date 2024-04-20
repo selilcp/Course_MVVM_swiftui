@@ -29,6 +29,7 @@
 		0AAB445A2BD3EAC100705CB1 /* CourseListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44592BD3EAC100705CB1 /* CourseListCellViewModel.swift */; };
 		0AAB445C2BD3F38C00705CB1 /* CourseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB445B2BD3F38C00705CB1 /* CourseDetailViewModel.swift */; };
 		0AAB445E2BD3F3D300705CB1 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB445D2BD3F3D300705CB1 /* CourseDetailView.swift */; };
+		0AAB44602BD3F9CB00705CB1 /* CourseVideoLinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB445F2BD3F9CB00705CB1 /* CourseVideoLinkModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		0AAB44592BD3EAC100705CB1 /* CourseListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListCellViewModel.swift; sourceTree = "<group>"; };
 		0AAB445B2BD3F38C00705CB1 /* CourseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailViewModel.swift; sourceTree = "<group>"; };
 		0AAB445D2BD3F3D300705CB1 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		0AAB445F2BD3F9CB00705CB1 /* CourseVideoLinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseVideoLinkModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			children = (
 				0AAB44432BD3CEC600705CB1 /* LoginDetailModel.swift */,
 				0AAB44452BD3CF2800705CB1 /* CourseModel.swift */,
+				0AAB445F2BD3F9CB00705CB1 /* CourseVideoLinkModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				0AAB44482BD3D34D00705CB1 /* NetworkLoader.swift in Sources */,
 				0AAB445E2BD3F3D300705CB1 /* CourseDetailView.swift in Sources */,
 				0AAB444C2BD3DEC800705CB1 /* LoginService.swift in Sources */,
+				0AAB44602BD3F9CB00705CB1 /* CourseVideoLinkModel.swift in Sources */,
 				0AAB445A2BD3EAC100705CB1 /* CourseListCellViewModel.swift in Sources */,
 				0AAB44562BD3EA4A00705CB1 /* CourseListView.swift in Sources */,
 				0AAB44582BD3EA8400705CB1 /* CourseListCellView.swift in Sources */,
