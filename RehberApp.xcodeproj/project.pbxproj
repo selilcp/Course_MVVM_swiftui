@@ -18,6 +18,8 @@
 		0AAB44422BD3CE1E00705CB1 /* courseList.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB44412BD3CE1E00705CB1 /* courseList.json */; };
 		0AAB44442BD3CEC600705CB1 /* LoginDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44432BD3CEC600705CB1 /* LoginDetailModel.swift */; };
 		0AAB44462BD3CF2800705CB1 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44452BD3CF2800705CB1 /* CourseModel.swift */; };
+		0AAB44482BD3D34D00705CB1 /* NetworkLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44472BD3D34D00705CB1 /* NetworkLoader.swift */; };
+		0AAB444A2BD3D37600705CB1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44492BD3D37600705CB1 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		0AAB44412BD3CE1E00705CB1 /* courseList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = courseList.json; sourceTree = "<group>"; };
 		0AAB44432BD3CEC600705CB1 /* LoginDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDetailModel.swift; sourceTree = "<group>"; };
 		0AAB44452BD3CF2800705CB1 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		0AAB44472BD3D34D00705CB1 /* NetworkLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoader.swift; sourceTree = "<group>"; };
+		0AAB44492BD3D37600705CB1 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 		0AAB443C2BD3CBD600705CB1 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				0AAB44472BD3D34D00705CB1 /* NetworkLoader.swift */,
+				0AAB44492BD3D37600705CB1 /* NetworkError.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -332,7 +338,9 @@
 				0AAB44102BD3CB8B00705CB1 /* LoginView.swift in Sources */,
 				0AAB44442BD3CEC600705CB1 /* LoginDetailModel.swift in Sources */,
 				0AAB44462BD3CF2800705CB1 /* CourseModel.swift in Sources */,
+				0AAB444A2BD3D37600705CB1 /* NetworkError.swift in Sources */,
 				0AAB440E2BD3CB8B00705CB1 /* RehberAppApp.swift in Sources */,
+				0AAB44482BD3D34D00705CB1 /* NetworkLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
