@@ -29,20 +29,22 @@ struct LoginView: View {
                                     leading: 20,
                                     bottom: 15,
                                     trailing: 20) )
-                .overlay(
+                .background(
                     RoundedRectangle(cornerRadius: 5)
                         .stroke(Color.gray, lineWidth: 1)
+                    
                 )
                 
-                Button("Submit") {
+                Button("Login") {
                     fetchDetails()
                 }
                 .foregroundColor(Color.black)
                 .frame(width:120, height: 40)
-                .background(Color.green.gradient.opacity(0.8))
-                .overlay(
+                .background(
                     RoundedRectangle(cornerRadius: 5)
-                        .stroke(Color.gray, lineWidth: 1)
+                        .strokeBorder(Color.gray, lineWidth: 1)
+                        .background(RoundedRectangle(cornerRadius: 5).fill(Color.green.opacity(0.7))
+                    )
                 )
                 .fullScreenCover(isPresented: $isCourseListPresented, content: {
                     createCourseListView(intrestedTopics: viewModel.getIntrestedList(),
