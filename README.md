@@ -6,7 +6,7 @@ This is a demo educational app built using SwiftUI and following the MVVM (Model
 
 - Login: Access your account by logging in with any of the usernames provided in our mock login data.
 
-- Course Listing: Once you've successfully logged in, explore our extensive range of courses meticulously sorted to match your preferences. We prioritize courses based on your favorite categories, ensuring they appear at the top of the list, sorted by their popularity ranking. Additionally, courses from categories you've previously attended will be listed, also sorted by popularity. For a seamless browsing experience, all other courses are neatly organized below these, ready for you to discover new and exciting topics.
+- Course Listing: Once you've successfully logged in, explore our extensive range of courses meticulously sorted to match your preferences. We prioritize courses based on your favorite categories, ensuring they appear at the top of the list, sorted by their popularity ranking. Additionally, courses from categories you've previously attended will be listed, also sorted by popularity. For a seamless browsing experience, all other courses are neatly organized below these, ready for you to discover new and exciting topics.You can easily update the list with the latest data by simply pulling it down.
 
 - Course Detail: Dive deeper into your selected course by tapping on it in the list, which will seamlessly direct you to the detailed screen. Here, you'll gain access to a wealth of course-related videos, allowing you to delve into the subject matter at your own pace. Ready to commit? Simply enroll in the course with the touch of a button
 
