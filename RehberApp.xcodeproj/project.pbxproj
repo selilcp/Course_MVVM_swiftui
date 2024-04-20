@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AAB440E2BD3CB8B00705CB1 /* RehberAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB440D2BD3CB8B00705CB1 /* RehberAppApp.swift */; };
+		0AAB44102BD3CB8B00705CB1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB440F2BD3CB8B00705CB1 /* LoginView.swift */; };
+		0AAB44122BD3CB8C00705CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB44112BD3CB8C00705CB1 /* Assets.xcassets */; };
+		0AAB44162BD3CB8C00705CB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB44152BD3CB8C00705CB1 /* Preview Assets.xcassets */; };
+		0AAB44202BD3CB8C00705CB1 /* RehberAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB441F2BD3CB8C00705CB1 /* RehberAppTests.swift */; };
+		0AAB442A2BD3CB8C00705CB1 /* RehberAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44292BD3CB8C00705CB1 /* RehberAppUITests.swift */; };
+		0AAB442C2BD3CB8C00705CB1 /* RehberAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB442B2BD3CB8C00705CB1 /* RehberAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AAB441C2BD3CB8C00705CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AAB44022BD3CB8A00705CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAB44092BD3CB8B00705CB1;
+			remoteInfo = RehberApp;
+		};
+		0AAB44262BD3CB8C00705CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AAB44022BD3CB8A00705CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAB44092BD3CB8B00705CB1;
+			remoteInfo = RehberApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AAB440A2BD3CB8B00705CB1 /* RehberApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RehberApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAB440D2BD3CB8B00705CB1 /* RehberAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberAppApp.swift; sourceTree = "<group>"; };
+		0AAB440F2BD3CB8B00705CB1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0AAB44112BD3CB8C00705CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AAB44132BD3CB8C00705CB1 /* RehberApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RehberApp.entitlements; sourceTree = "<group>"; };
+		0AAB44152BD3CB8C00705CB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AAB441B2BD3CB8C00705CB1 /* RehberAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RehberAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAB441F2BD3CB8C00705CB1 /* RehberAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberAppTests.swift; sourceTree = "<group>"; };
+		0AAB44252BD3CB8C00705CB1 /* RehberAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RehberAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAB44292BD3CB8C00705CB1 /* RehberAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberAppUITests.swift; sourceTree = "<group>"; };
+		0AAB442B2BD3CB8C00705CB1 /* RehberAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AAB44072BD3CB8B00705CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAB44182BD3CB8C00705CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAB44222BD3CB8C00705CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAB44012BD3CB8A00705CB1 = {
+			isa = PBXGroup;
+			children = (
+				0AAB440C2BD3CB8B00705CB1 /* RehberApp */,
+				0AAB441E2BD3CB8C00705CB1 /* RehberAppTests */,
+				0AAB44282BD3CB8C00705CB1 /* RehberAppUITests */,
+				0AAB440B2BD3CB8B00705CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AAB440B2BD3CB8B00705CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB440A2BD3CB8B00705CB1 /* RehberApp.app */,
+				0AAB441B2BD3CB8C00705CB1 /* RehberAppTests.xctest */,
+				0AAB44252BD3CB8C00705CB1 /* RehberAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AAB440C2BD3CB8B00705CB1 /* RehberApp */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB443D2BD3CC0300705CB1 /* NetworkData */,
+				0AAB443C2BD3CBD600705CB1 /* Network */,
+				0AAB443B2BD3CBC900705CB1 /* Service */,
+				0AAB44382BD3CBA400705CB1 /* Model */,
+				0AAB44392BD3CBB100705CB1 /* ViewModel */,
+				0AAB443A2BD3CBBD00705CB1 /* View */,
+				0AAB443E2BD3CC2C00705CB1 /* Resources */,
+				0AAB44142BD3CB8C00705CB1 /* Preview Content */,
+				0AAB440D2BD3CB8B00705CB1 /* RehberAppApp.swift */,
+				0AAB44132BD3CB8C00705CB1 /* RehberApp.entitlements */,
+			);
+			path = RehberApp;
+			sourceTree = "<group>";
+		};
+		0AAB44142BD3CB8C00705CB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB44152BD3CB8C00705CB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AAB441E2BD3CB8C00705CB1 /* RehberAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB441F2BD3CB8C00705CB1 /* RehberAppTests.swift */,
+			);
+			path = RehberAppTests;
+			sourceTree = "<group>";
+		};
+		0AAB44282BD3CB8C00705CB1 /* RehberAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB44292BD3CB8C00705CB1 /* RehberAppUITests.swift */,
+				0AAB442B2BD3CB8C00705CB1 /* RehberAppUITestsLaunchTests.swift */,
+			);
+			path = RehberAppUITests;
+			sourceTree = "<group>";
+		};
+		0AAB44382BD3CBA400705CB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AAB44392BD3CBB100705CB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0AAB443A2BD3CBBD00705CB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB440F2BD3CB8B00705CB1 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AAB443B2BD3CBC900705CB1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0AAB443C2BD3CBD600705CB1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0AAB443D2BD3CC0300705CB1 /* NetworkData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkData;
+			sourceTree = "<group>";
+		};
+		0AAB443E2BD3CC2C00705CB1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB44112BD3CB8C00705CB1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AAB44092BD3CB8B00705CB1 /* RehberApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAB442F2BD3CB8C00705CB1 /* Build configuration list for PBXNativeTarget "RehberApp" */;
+			buildPhases = (
+				0AAB44062BD3CB8B00705CB1 /* Sources */,
+				0AAB44072BD3CB8B00705CB1 /* Frameworks */,
+				0AAB44082BD3CB8B00705CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RehberApp;
+			productName = RehberApp;
+			productReference = 0AAB440A2BD3CB8B00705CB1 /* RehberApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AAB441A2BD3CB8C00705CB1 /* RehberAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAB44322BD3CB8C00705CB1 /* Build configuration list for PBXNativeTarget "RehberAppTests" */;
+			buildPhases = (
+				0AAB44172BD3CB8C00705CB1 /* Sources */,
+				0AAB44182BD3CB8C00705CB1 /* Frameworks */,
+				0AAB44192BD3CB8C00705CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AAB441D2BD3CB8C00705CB1 /* PBXTargetDependency */,
+			);
+			name = RehberAppTests;
+			productName = RehberAppTests;
+			productReference = 0AAB441B2BD3CB8C00705CB1 /* RehberAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AAB44242BD3CB8C00705CB1 /* RehberAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAB44352BD3CB8C00705CB1 /* Build configuration list for PBXNativeTarget "RehberAppUITests" */;
+			buildPhases = (
+				0AAB44212BD3CB8C00705CB1 /* Sources */,
+				0AAB44222BD3CB8C00705CB1 /* Frameworks */,
+				0AAB44232BD3CB8C00705CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AAB44272BD3CB8C00705CB1 /* PBXTargetDependency */,
+			);
+			name = RehberAppUITests;
+			productName = RehberAppUITests;
+			productReference = 0AAB44252BD3CB8C00705CB1 /* RehberAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AAB44022BD3CB8A00705CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0AAB44092BD3CB8B00705CB1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0AAB441A2BD3CB8C00705CB1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0AAB44092BD3CB8B00705CB1;
+					};
+					0AAB44242BD3CB8C00705CB1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0AAB44092BD3CB8B00705CB1;
+					};
+				};
+			};
+			buildConfigurationList = 0AAB44052BD3CB8A00705CB1 /* Build configuration list for PBXProject "RehberApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AAB44012BD3CB8A00705CB1;
+			productRefGroup = 0AAB440B2BD3CB8B00705CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AAB44092BD3CB8B00705CB1 /* RehberApp */,
+				0AAB441A2BD3CB8C00705CB1 /* RehberAppTests */,
+				0AAB44242BD3CB8C00705CB1 /* RehberAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AAB44082BD3CB8B00705CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAB44162BD3CB8C00705CB1 /* Preview Assets.xcassets in Resources */,
+				0AAB44122BD3CB8C00705CB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAB44192BD3CB8C00705CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAB44232BD3CB8C00705CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AAB44062BD3CB8B00705CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAB44102BD3CB8B00705CB1 /* LoginView.swift in Sources */,
+				0AAB440E2BD3CB8B00705CB1 /* RehberAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAB44172BD3CB8C00705CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAB44202BD3CB8C00705CB1 /* RehberAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAB44212BD3CB8C00705CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAB442C2BD3CB8C00705CB1 /* RehberAppUITestsLaunchTests.swift in Sources */,
+				0AAB442A2BD3CB8C00705CB1 /* RehberAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AAB441D2BD3CB8C00705CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAB44092BD3CB8B00705CB1 /* RehberApp */;
+			targetProxy = 0AAB441C2BD3CB8C00705CB1 /* PBXContainerItemProxy */;
+		};
+		0AAB44272BD3CB8C00705CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAB44092BD3CB8B00705CB1 /* RehberApp */;
+			targetProxy = 0AAB44262BD3CB8C00705CB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AAB442D2BD3CB8C00705CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AAB442E2BD3CB8C00705CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0AAB44302BD3CB8C00705CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RehberApp/RehberApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RehberApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selil.RehberApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AAB44312BD3CB8C00705CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RehberApp/RehberApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RehberApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selil.RehberApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AAB44332BD3CB8C00705CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selil.RehberAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehberApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RehberApp";
+			};
+			name = Debug;
+		};
+		0AAB44342BD3CB8C00705CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selil.RehberAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehberApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RehberApp";
+			};
+			name = Release;
+		};
+		0AAB44362BD3CB8C00705CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selil.RehberAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RehberApp;
+			};
+			name = Debug;
+		};
+		0AAB44372BD3CB8C00705CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selil.RehberAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RehberApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AAB44052BD3CB8A00705CB1 /* Build configuration list for PBXProject "RehberApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAB442D2BD3CB8C00705CB1 /* Debug */,
+				0AAB442E2BD3CB8C00705CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAB442F2BD3CB8C00705CB1 /* Build configuration list for PBXNativeTarget "RehberApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAB44302BD3CB8C00705CB1 /* Debug */,
+				0AAB44312BD3CB8C00705CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAB44322BD3CB8C00705CB1 /* Build configuration list for PBXNativeTarget "RehberAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAB44332BD3CB8C00705CB1 /* Debug */,
+				0AAB44342BD3CB8C00705CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAB44352BD3CB8C00705CB1 /* Build configuration list for PBXNativeTarget "RehberAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAB44362BD3CB8C00705CB1 /* Debug */,
+				0AAB44372BD3CB8C00705CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AAB44022BD3CB8A00705CB1 /* Project object */;
+}
