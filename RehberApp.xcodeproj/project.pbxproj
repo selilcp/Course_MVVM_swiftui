@@ -27,6 +27,8 @@
 		0AAB44562BD3EA4A00705CB1 /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44552BD3EA4A00705CB1 /* CourseListView.swift */; };
 		0AAB44582BD3EA8400705CB1 /* CourseListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44572BD3EA8400705CB1 /* CourseListCellView.swift */; };
 		0AAB445A2BD3EAC100705CB1 /* CourseListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44592BD3EAC100705CB1 /* CourseListCellViewModel.swift */; };
+		0AAB445C2BD3F38C00705CB1 /* CourseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB445B2BD3F38C00705CB1 /* CourseDetailViewModel.swift */; };
+		0AAB445E2BD3F3D300705CB1 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB445D2BD3F3D300705CB1 /* CourseDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		0AAB44552BD3EA4A00705CB1 /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
 		0AAB44572BD3EA8400705CB1 /* CourseListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListCellView.swift; sourceTree = "<group>"; };
 		0AAB44592BD3EAC100705CB1 /* CourseListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListCellViewModel.swift; sourceTree = "<group>"; };
+		0AAB445B2BD3F38C00705CB1 /* CourseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailViewModel.swift; sourceTree = "<group>"; };
+		0AAB445D2BD3F3D300705CB1 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 				0AAB444F2BD3DF9D00705CB1 /* LoginViewModel.swift */,
 				0AAB44532BD3E99900705CB1 /* CourseListViewModel.swift */,
 				0AAB44592BD3EAC100705CB1 /* CourseListCellViewModel.swift */,
+				0AAB445B2BD3F38C00705CB1 /* CourseDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				0AAB440F2BD3CB8B00705CB1 /* LoginView.swift */,
 				0AAB44552BD3EA4A00705CB1 /* CourseListView.swift */,
 				0AAB44572BD3EA8400705CB1 /* CourseListCellView.swift */,
+				0AAB445D2BD3F3D300705CB1 /* CourseDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -362,9 +368,11 @@
 				0AAB44462BD3CF2800705CB1 /* CourseModel.swift in Sources */,
 				0AAB444A2BD3D37600705CB1 /* NetworkError.swift in Sources */,
 				0AAB44502BD3DF9D00705CB1 /* LoginViewModel.swift in Sources */,
+				0AAB445C2BD3F38C00705CB1 /* CourseDetailViewModel.swift in Sources */,
 				0AAB44522BD3E8F800705CB1 /* CourseListService.swift in Sources */,
 				0AAB440E2BD3CB8B00705CB1 /* RehberAppApp.swift in Sources */,
 				0AAB44482BD3D34D00705CB1 /* NetworkLoader.swift in Sources */,
+				0AAB445E2BD3F3D300705CB1 /* CourseDetailView.swift in Sources */,
 				0AAB444C2BD3DEC800705CB1 /* LoginService.swift in Sources */,
 				0AAB445A2BD3EAC100705CB1 /* CourseListCellViewModel.swift in Sources */,
 				0AAB44562BD3EA4A00705CB1 /* CourseListView.swift in Sources */,
