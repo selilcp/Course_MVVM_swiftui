@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CourseModel: Codable{
+struct CourseModel: Codable, Identifiable{
     let id:Int
     let title: String
     let instructorName: String
