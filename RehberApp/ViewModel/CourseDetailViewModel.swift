@@ -7,8 +7,13 @@
 
 import Foundation
 
-struct CourseDetailViewModel{
+@Observable
+class CourseDetailViewModel{
     
-    let course:CourseModel
+    var course:CourseModel
+    
+    init(course: CourseModel) {
+        self.course = course
+    }
     
 }

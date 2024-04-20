@@ -15,5 +15,5 @@ struct CourseModel: Codable, Identifiable{
     let shortDescription: String
     let description: String
     let userCount:Int
-    let videoLinks: [CourseVideoLinkModel]
+    var videoLinks: [CourseVideoLinkModel]
 }

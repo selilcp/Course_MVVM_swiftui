@@ -10,9 +10,11 @@ import SwiftUI
 struct CourseDetailView: View {
     
     @State private var showAlert:Bool = false
+    @State var viewModel: CourseDetailViewModel
     
-    let viewModel: CourseDetailViewModel
-    
+    init(viewModel: CourseDetailViewModel) {
+        _viewModel = State(initialValue: viewModel)
+    }
     
     var body: some View {
         ZStack{
@@ -22,7 +24,13 @@ struct CourseDetailView: View {
                     .font(.title3)
                     .padding(EdgeInsets(top: 20, leading: 20, bottom: 0, trailing: 40))
                 Text(viewModel.course.description)
+                    .font(.system(size: 14))
                     .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 40))
+                List {
+                    ForEach($viewModel.course.videoLinks) { video in
+                        CourseVideoLinkCellView(viewModel:CourseVideoLinkCellViewModel(videoLink: video.wrappedValue))
+                    }
+                }
             }
             VStack{
                 Spacer()
@@ -40,5 +48,5 @@ struct CourseDetailView: View {
 }
 
 #Preview {
-    CourseDetailView(viewModel: CourseDetailViewModel(course: CourseModel.init(id: 1, title: "tes", instructorName: "gd", category: "dfd", shortDescription: "fdf", description: "fef", userCount: 3, videoLinks: [""])))
+    CourseDetailView(viewModel: CourseDetailViewModel(course: CourseModel.init(id: 1, title: "tes", instructorName: "gd", category: "dfd", shortDescription: "fdf", description: "fef", userCount: 3, videoLinks: [CourseVideoLinkModel(id: 1, title: "fd", link: "ff")])))
 }

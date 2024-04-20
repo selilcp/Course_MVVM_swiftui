@@ -8,13 +8,13 @@
         "description":"Description",
         "userCount":7,
         "videoLinks":[{"id": 1 ,
-            "link":"https://www.youtube.com/watch?v=xSbMX0MFJCY"
+            "link":"https://www.youtube.com/watch?v=xSbMX0MFJCY",
             "title": "How Do Vaccines Work?: Viruses & Vaccines: Crash Course Biology"},
             {"id": 2 ,
-            "link":"https://www.youtube.com/watch?v=tZE_fQFK8EY"
+            "link":"https://www.youtube.com/watch?v=tZE_fQFK8EY",
             "title": "Introduction to Biology: Crash Course Biology"},
             {"id": 3 ,
-            "link":"https://www.youtube.com/watch?v=8mAITcNt710"
+            "link":"https://www.youtube.com/watch?v=8mAITcNt710",
             "title": "Harvard CS50 – Full Computer Science University Course"}]
     },
     {
@@ -25,7 +25,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":9,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":3,
@@ -35,7 +35,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":1,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":4,
@@ -45,7 +45,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":20,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":5,
@@ -55,7 +55,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":44,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":6,
@@ -65,7 +65,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":23,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":7,
@@ -75,7 +75,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":11,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":8,
@@ -85,7 +85,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":15,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":9,
@@ -95,7 +95,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":60,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":10,
@@ -105,7 +105,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":34,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":11,
@@ -115,7 +115,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":33,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":12,
@@ -125,7 +125,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":75,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":13,
@@ -135,7 +135,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":2,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":14,
@@ -145,7 +145,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":7,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":15,
@@ -155,7 +155,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":8,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":16,
@@ -165,7 +165,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":37,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":17,
@@ -175,7 +175,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":28,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":18,
@@ -185,7 +185,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":18,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":19,
@@ -195,7 +195,7 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":16,
-        "videoLinks":[""]
+        "videoLinks":[]
     },
     {
         "id":20,
@@ -205,6 +205,6 @@
         "shortDescription":"Short description",
         "description":"Description",
         "userCount":0,
-        "videoLinks":[""]
+        "videoLinks":[]
     }
 ]
