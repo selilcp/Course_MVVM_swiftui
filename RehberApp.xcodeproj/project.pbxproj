@@ -20,6 +20,7 @@
 		0AAB44462BD3CF2800705CB1 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44452BD3CF2800705CB1 /* CourseModel.swift */; };
 		0AAB44482BD3D34D00705CB1 /* NetworkLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44472BD3D34D00705CB1 /* NetworkLoader.swift */; };
 		0AAB444A2BD3D37600705CB1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44492BD3D37600705CB1 /* NetworkError.swift */; };
+		0AAB444C2BD3DEC800705CB1 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB444B2BD3DEC800705CB1 /* LoginService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		0AAB44452BD3CF2800705CB1 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 		0AAB44472BD3D34D00705CB1 /* NetworkLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoader.swift; sourceTree = "<group>"; };
 		0AAB44492BD3D37600705CB1 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0AAB444B2BD3DEC800705CB1 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 		0AAB443B2BD3CBC900705CB1 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				0AAB444B2BD3DEC800705CB1 /* LoginService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				0AAB444A2BD3D37600705CB1 /* NetworkError.swift in Sources */,
 				0AAB440E2BD3CB8B00705CB1 /* RehberAppApp.swift in Sources */,
 				0AAB44482BD3D34D00705CB1 /* NetworkLoader.swift in Sources */,
+				0AAB444C2BD3DEC800705CB1 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
