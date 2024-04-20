@@ -1,0 +1,202 @@
+[
+    {
+        "id":1,
+        "title":"Course 1",
+        "instructorName":"instructor 1",
+        "category":"cat1",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":7,
+        "videoLinks":[""]
+    },
+    {
+        "id":2,
+        "title":"Course 2",
+        "instructorName":"instructor 2",
+        "category":"cat2",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":9,
+        "videoLinks":[""]
+    },
+    {
+        "id":3,
+        "title":"Course 3",
+        "instructorName":"instructor 3",
+        "category":"cat4",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":1,
+        "videoLinks":[""]
+    },
+    {
+        "id":4,
+        "title":"Course 4",
+        "instructorName":"instructor 1",
+        "category":"cat5",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":20,
+        "videoLinks":[""]
+    },
+    {
+        "id":5,
+        "title":"Course 5",
+        "instructorName":"instructor 2",
+        "category":"cat1",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":44,
+        "videoLinks":[""]
+    },
+    {
+        "id":6,
+        "title":"Course 6",
+        "instructorName":"instructor 3",
+        "category":"cat3",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":23,
+        "videoLinks":[""]
+    },
+    {
+        "id":7,
+        "title":"Course 7",
+        "instructorName":"instructor 1",
+        "category":"cat1",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":11,
+        "videoLinks":[""]
+    },
+    {
+        "id":8,
+        "title":"Course 8",
+        "instructorName":"instructor 2",
+        "category":"cat1",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":15,
+        "videoLinks":[""]
+    },
+    {
+        "id":9,
+        "title":"Course 9",
+        "instructorName":"instructor 3",
+        "category":"cat3",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":60,
+        "videoLinks":[""]
+    },
+    {
+        "id":10,
+        "title":"Course 10",
+        "instructorName":"instructor 1",
+        "category":"cat2",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":34,
+        "videoLinks":[""]
+    },
+    {
+        "id":11,
+        "title":"Course 11",
+        "instructorName":"instructor 2",
+        "category":"cat5",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":33,
+        "videoLinks":[""]
+    },
+    {
+        "id":12,
+        "title":"Course 12",
+        "instructorName":"instructor 3",
+        "category":"cat3",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":75,
+        "videoLinks":[""]
+    },
+    {
+        "id":13,
+        "title":"Course 13",
+        "instructorName":"instructor 1",
+        "category":"cat4",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":2,
+        "videoLinks":[""]
+    },
+    {
+        "id":14,
+        "title":"Course 14",
+        "instructorName":"instructor 2",
+        "category":"cat2",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":7,
+        "videoLinks":[""]
+    },
+    {
+        "id":15,
+        "title":"Course 15",
+        "instructorName":"instructor 3",
+        "category":"cat1",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":8,
+        "videoLinks":[""]
+    },
+    {
+        "id":16,
+        "title":"Course 16",
+        "instructorName":"instructor 1",
+        "category":"cat4",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":37,
+        "videoLinks":[""]
+    },
+    {
+        "id":17,
+        "title":"Course 17",
+        "instructorName":"instructor 2",
+        "category":"cat2",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":28,
+        "videoLinks":[""]
+    },
+    {
+        "id":18,
+        "title":"Course 18",
+        "instructorName":"instructor 3",
+        "category":"cat1",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":18,
+        "videoLinks":["https://www.youtube.com/watch?v=xSbMX0MFJCY,https://www.youtube.com/watch?v=tZE_fQFK8EY,https://www.youtube.com/watch?v=8mAITcNt710"]
+    },
+    {
+        "id":19,
+        "title":"Course 19",
+        "instructorName":"instructor 1",
+        "category":"cat4",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":16,
+        "videoLinks":[""]
+    },
+    {
+        "id":20,
+        "title":"Course 20",
+        "instructorName":"instructor 2",
+        "category":"cat5",
+        "shortDescription":"Short description",
+        "description":"Description",
+        "userCount":0,
+        "videoLinks":[""]
+    }
+]

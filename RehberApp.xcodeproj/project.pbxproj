@@ -14,6 +14,8 @@
 		0AAB44202BD3CB8C00705CB1 /* RehberAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB441F2BD3CB8C00705CB1 /* RehberAppTests.swift */; };
 		0AAB442A2BD3CB8C00705CB1 /* RehberAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44292BD3CB8C00705CB1 /* RehberAppUITests.swift */; };
 		0AAB442C2BD3CB8C00705CB1 /* RehberAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB442B2BD3CB8C00705CB1 /* RehberAppUITestsLaunchTests.swift */; };
+		0AAB44402BD3CE0300705CB1 /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB443F2BD3CE0300705CB1 /* login.json */; };
+		0AAB44422BD3CE1E00705CB1 /* courseList.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB44412BD3CE1E00705CB1 /* courseList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0AAB44252BD3CB8C00705CB1 /* RehberAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RehberAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAB44292BD3CB8C00705CB1 /* RehberAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberAppUITests.swift; sourceTree = "<group>"; };
 		0AAB442B2BD3CB8C00705CB1 /* RehberAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AAB443F2BD3CE0300705CB1 /* login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
+		0AAB44412BD3CE1E00705CB1 /* courseList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = courseList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +177,8 @@
 		0AAB443D2BD3CC0300705CB1 /* NetworkData */ = {
 			isa = PBXGroup;
 			children = (
+				0AAB443F2BD3CE0300705CB1 /* login.json */,
+				0AAB44412BD3CE1E00705CB1 /* courseList.json */,
 			);
 			path = NetworkData;
 			sourceTree = "<group>";
@@ -289,8 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AAB44422BD3CE1E00705CB1 /* courseList.json in Resources */,
 				0AAB44162BD3CB8C00705CB1 /* Preview Assets.xcassets in Resources */,
 				0AAB44122BD3CB8C00705CB1 /* Assets.xcassets in Resources */,
+				0AAB44402BD3CE0300705CB1 /* login.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

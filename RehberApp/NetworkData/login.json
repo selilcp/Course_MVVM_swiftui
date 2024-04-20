@@ -1,0 +1,24 @@
+[
+    {
+        "userId":1,
+        "name":"User 1",
+        "userName":"user1",
+        "intrestedTopics":["cat2","cat1"],
+        "previouslySelectedTopics":[""]
+    },
+    {
+        "userId":2,
+        "name":"User 2",
+        "userName":"user2",
+        "intrestedTopics":["cat5"],
+        "previouslySelectedTopics":["cat5","cat4"]
+    },
+    {
+        "userId":3,
+        "name":"User 3",
+        "userName":"user3",
+        "intrestedTopics":["cat3"],
+        "previouslySelectedTopics":["cat3"]
+    }
+]
+
