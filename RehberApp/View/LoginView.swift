@@ -22,19 +22,28 @@ struct LoginView: View {
     var body: some View {
         HStack{
             Spacer(minLength: 30)
-            VStack(alignment:.center ){
+            VStack(alignment:.center ,spacing: 30){
                 TextField( "User Name",
                            text: $userInput)
                 .padding(EdgeInsets(top: 15,
                                     leading: 20,
                                     bottom: 15,
                                     trailing: 20) )
-                .border(.gray, width: 0.5)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 5)
+                        .stroke(Color.gray, lineWidth: 1)
+                )
+                
                 Button("Submit") {
                     fetchDetails()
                 }
+                .foregroundColor(Color.black)
                 .frame(width:120, height: 40)
-                .border(.gray, width: 0.5)
+                .background(Color.green.gradient.opacity(0.8))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 5)
+                        .stroke(Color.gray, lineWidth: 1)
+                )
                 .fullScreenCover(isPresented: $isCourseListPresented, content: {
                     createCourseListView(intrestedTopics: viewModel.getIntrestedList(),
                                          previouslySelectedTopics: viewModel.getPreviouslySelectedList())
