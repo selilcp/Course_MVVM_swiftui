@@ -37,6 +37,9 @@ struct CourseListView: View {
                 .onAppear () {
                     fetchCourseList()
                 }
+                .refreshable(action: {
+                    fetchCourseList()
+                })
                 .alert(item: $networkError) { error in
                     Alert(title: Text("Error"),
                           message: Text(error.message),
