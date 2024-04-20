@@ -26,12 +26,27 @@ class DefaultCourseListService:CourseListService{
         
         let loader = NetworkLoader<[CourseModel]>(fileName: "courseList")
         
-        loader.loadAPIRequest { data, error in
-            if let apiData = data {
-                completionHandler(apiData,nil)
+        loader.loadAPIRequest {[weak self] data, error in
+            if let networkData = data {
+                let sortedData = self?.sortWithPriority(list: networkData)
+                completionHandler(sortedData,nil)
             }else{
                 completionHandler(nil,error)
             }
         }
+    }
+    
+    private func sortWithPriority( list: [CourseModel]) -> [CourseModel]{
+        let favList = userFavCategories
+        let selectList = alreadySelectedCategories
+        var finalList:[CourseModel] = []
+        let sortedList = list.sorted(by: {$0.userCount > $1.userCount})
+        finalList = sortedList.filter({favList.contains($0.category)})
+        let favRemovedList = sortedList.filter({!favList.contains($0.category)})
+        let selectedCategoryList = favRemovedList.filter({selectList.contains($0.category)})
+        finalList.append(contentsOf: selectedCategoryList)
+        let otherList = favRemovedList.filter({!selectList.contains($0.category)})
+        finalList.append(contentsOf: otherList)
+        return finalList
     }
 }
