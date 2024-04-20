@@ -23,6 +23,7 @@
 		0AAB444C2BD3DEC800705CB1 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB444B2BD3DEC800705CB1 /* LoginService.swift */; };
 		0AAB44502BD3DF9D00705CB1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB444F2BD3DF9D00705CB1 /* LoginViewModel.swift */; };
 		0AAB44522BD3E8F800705CB1 /* CourseListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44512BD3E8F800705CB1 /* CourseListService.swift */; };
+		0AAB44542BD3E99900705CB1 /* CourseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44532BD3E99900705CB1 /* CourseListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		0AAB444B2BD3DEC800705CB1 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		0AAB444F2BD3DF9D00705CB1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		0AAB44512BD3E8F800705CB1 /* CourseListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListService.swift; sourceTree = "<group>"; };
+		0AAB44532BD3E99900705CB1 /* CourseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				0AAB444F2BD3DF9D00705CB1 /* LoginViewModel.swift */,
+				0AAB44532BD3E99900705CB1 /* CourseListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AAB44102BD3CB8B00705CB1 /* LoginView.swift in Sources */,
+				0AAB44542BD3E99900705CB1 /* CourseListViewModel.swift in Sources */,
 				0AAB44442BD3CEC600705CB1 /* LoginDetailModel.swift in Sources */,
 				0AAB44462BD3CF2800705CB1 /* CourseModel.swift in Sources */,
 				0AAB444A2BD3D37600705CB1 /* NetworkError.swift in Sources */,
