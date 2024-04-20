@@ -12,6 +12,6 @@ This is a demo educational app built using SwiftUI and following the MVVM (Model
 
 ## Mock Data
 
-- User Management: Need to add or update a user? It's as simple as editing the login JSON file located in the networkData folder. Rest assured, your current user JSON format remains intact, ensuring seamless integration without any disruptions to the system.
+- User Management: Need to add or update a user? It's as simple as editing the login JSON file located in the networkData folder. Rest assured, your current user JSON format remains intact, ensuring seamless integration without any disruptions to the system.Currently, you can log in with the following users: user1, user2, and user3.
 
-- Course Customization: Want to tweak or update courses? You have the power to modify the course list JSON file without worrying about compromising the current data structure. Feel free to make changes and enhancements to suit your evolving needs while maintaining the integrity of the existing data.
+- Course Customization: Want to tweak or update courses? You have the power to modify the course list JSON file without worrying about compromising the current data structure. Feel free to make changes and enhancements to suit your evolving needs while maintaining the integrity of the existing data.Currently, video links are only added in Course 1
