@@ -12,6 +12,12 @@ struct LoginView: View {
     @State private var userInput = ""
     @State private var isCourseListPresented = false
     
+    let viewModel: LoginViewModel
+    
+    init(service: LoginService) {
+        self.viewModel = LoginViewModel( service: service)
+    }
+    
     var body: some View {
         HStack{
             Spacer(minLength: 30)
@@ -36,5 +42,5 @@ struct LoginView: View {
 }
 
 #Preview {
-    LoginView()
+    LoginView(service: DefaultLoginService())
 }

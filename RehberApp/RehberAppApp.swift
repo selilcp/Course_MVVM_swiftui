@@ -11,7 +11,7 @@ import SwiftUI
 struct RehberAppApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            LoginView(service: DefaultLoginService())
         }
     }
 }
