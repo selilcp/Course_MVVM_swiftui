@@ -17,6 +17,7 @@
 		0AAB44402BD3CE0300705CB1 /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB443F2BD3CE0300705CB1 /* login.json */; };
 		0AAB44422BD3CE1E00705CB1 /* courseList.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB44412BD3CE1E00705CB1 /* courseList.json */; };
 		0AAB44442BD3CEC600705CB1 /* LoginDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44432BD3CEC600705CB1 /* LoginDetailModel.swift */; };
+		0AAB44462BD3CF2800705CB1 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44452BD3CF2800705CB1 /* CourseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0AAB443F2BD3CE0300705CB1 /* login.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
 		0AAB44412BD3CE1E00705CB1 /* courseList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = courseList.json; sourceTree = "<group>"; };
 		0AAB44432BD3CEC600705CB1 /* LoginDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDetailModel.swift; sourceTree = "<group>"; };
+		0AAB44452BD3CF2800705CB1 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				0AAB44432BD3CEC600705CB1 /* LoginDetailModel.swift */,
+				0AAB44452BD3CF2800705CB1 /* CourseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			files = (
 				0AAB44102BD3CB8B00705CB1 /* LoginView.swift in Sources */,
 				0AAB44442BD3CEC600705CB1 /* LoginDetailModel.swift in Sources */,
+				0AAB44462BD3CF2800705CB1 /* CourseModel.swift in Sources */,
 				0AAB440E2BD3CB8B00705CB1 /* RehberAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
