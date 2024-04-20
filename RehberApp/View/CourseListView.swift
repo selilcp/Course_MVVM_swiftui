@@ -21,13 +21,17 @@ struct CourseListView: View {
     
     var body: some View {
         NavigationView{
-            VStack{
+            VStack(spacing: 0){
                 HStack{
                     Spacer()
                     Button("Logout") {
                         dismiss()
                     }
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/,height: 40)
+                    .foregroundColor(.black)
+                    .font(.headline)
                 }
+                .background(Color.green.opacity(0.8))
                 List {
                     ForEach($viewModel.courseList) { course in
                         let listViewModel = CourseListCellViewModel(course: course.wrappedValue)

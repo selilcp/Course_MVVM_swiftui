@@ -19,7 +19,7 @@ struct CourseListCell: View {
                     .font(.title3)
                 Text(viewModel.course.instructorName)
                     .font(Font.subheadline.weight(.medium))
-                    .foregroundColor(Color.blue)
+                    .foregroundColor(Color.gray)
                 Text(viewModel.course.shortDescription)
                     .lineLimit(3)
                     .font(.body)
