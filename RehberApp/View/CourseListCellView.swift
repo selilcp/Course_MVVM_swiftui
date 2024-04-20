@@ -25,6 +25,9 @@ struct CourseListCell: View {
                     .font(.body)
             }
             .buttonStyle(.plain)
+            NavigationLink( destination: CourseDetailView(viewModel: CourseDetailViewModel(course: viewModel.course) )){
+            
+            }
         }
     }
 }
