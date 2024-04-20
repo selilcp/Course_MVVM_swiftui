@@ -22,6 +22,7 @@
 		0AAB444A2BD3D37600705CB1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44492BD3D37600705CB1 /* NetworkError.swift */; };
 		0AAB444C2BD3DEC800705CB1 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB444B2BD3DEC800705CB1 /* LoginService.swift */; };
 		0AAB44502BD3DF9D00705CB1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB444F2BD3DF9D00705CB1 /* LoginViewModel.swift */; };
+		0AAB44522BD3E8F800705CB1 /* CourseListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB44512BD3E8F800705CB1 /* CourseListService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		0AAB44492BD3D37600705CB1 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		0AAB444B2BD3DEC800705CB1 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		0AAB444F2BD3DF9D00705CB1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0AAB44512BD3E8F800705CB1 /* CourseListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				0AAB444B2BD3DEC800705CB1 /* LoginService.swift */,
+				0AAB44512BD3E8F800705CB1 /* CourseListService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				0AAB44462BD3CF2800705CB1 /* CourseModel.swift in Sources */,
 				0AAB444A2BD3D37600705CB1 /* NetworkError.swift in Sources */,
 				0AAB44502BD3DF9D00705CB1 /* LoginViewModel.swift in Sources */,
+				0AAB44522BD3E8F800705CB1 /* CourseListService.swift in Sources */,
 				0AAB440E2BD3CB8B00705CB1 /* RehberAppApp.swift in Sources */,
 				0AAB44482BD3D34D00705CB1 /* NetworkLoader.swift in Sources */,
 				0AAB444C2BD3DEC800705CB1 /* LoginService.swift in Sources */,
